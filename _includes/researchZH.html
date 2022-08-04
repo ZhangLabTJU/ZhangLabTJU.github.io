@@ -1,0 +1,28 @@
+<!-- research -->
+  <section class="page-section" id="{{ site.data.sitetextZH.research.section | default: "researchZH" }}">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 ">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetextZH.research.title | default: "research" }}</h2>
+          {% if site.data.sitetextZH.research.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetextZH.research.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+
+      <div class="row ">
+	  {% for service in site.data.sitetextZH.research.list %}
+        <div class="col-md-12">
+          <ul>
+            <li><h4 class="service-heading">{{ service.title | markdownify }}</h4></li>
+          </ul>
+
+          {% if service.desc %}<div class="text-muted" style="font-size:20px">{{ service.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+
+    </div>
+  </section>
+<!-- End research -->

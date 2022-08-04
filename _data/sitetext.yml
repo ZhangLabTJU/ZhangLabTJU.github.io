@@ -1,0 +1,96 @@
+
+research:
+    title: "Current Research"
+    section: research
+    list:
+      - title: "Computational Immunology "
+        desc: "T and B cells are the two cores of the adaptive immune system, and both express antigen-specific receptors at their surface, namely, T cell receptors (TCRs) and B cell receptors (BCRs). The broad diversity of TCR and BCR ensures that the adaptive immune system is capable of recognizing a vast array of antigens, including pathogens, auto-antigens, allergens, and tumor neoantigens. Thus profiling and characterizing those antigen-specific receptors has become an important part of basic and clinical immunology research. We are interested in developing computational technologies to investigate the link between TCR/BCR sequence and epitope binding specificity, and explore their potential for disease detection, drug design and monitoring the responses to therapy. We especially hope that our research work can further deepen the understanding of our immune system."
+        image: assets/img/research/res1.jpg
+
+      - title: "Cancer Multi-omics Data Mining "
+        desc: "The advent of omics technologies, such as genomics, epigenomics, transcriptomics and proteomics, have revolutionized medical research. The concept of “omics” refers to the fact that all or nearly all instances of the targeted molecular space are measured in the assay, and therefore they provide holistic views of the biological system. The efficient processing and analysis of the omics data, especially extracting and discovering patterns from these data, has brought many challenges to bioinformatics and computational biology.We are interested in developing computational methods to mine large-scale omics data to improve understanding of the causes and biological processes of diseases, especially in cancer, and to identify signatures and build models for early cancer detection and personalized treatment."
+        image: assets/img/research/res2.jpg
+
+    resource:
+      - title: 'uctcrdb'
+        desc: ''
+        image: assets/img/research/uctcrdb.png
+        link: http://uctcrdb.cn/
+
+
+
+portfolio:
+    title: "Selected Publications"
+    section: portfolio
+    closebutton: "Close Paper"
+    rawbutton: "Journal Page"
+    button: View More
+    buttonlink: "publication"
+
+
+
+
+biography:
+    title: "PI"
+    subtext:
+    section: biography
+    people:
+      - name: "Jian Zhang, Ph.D."
+        role: "Associate professor"
+        description: 'Academy of Medical Engineering and Translational Medicine, Tianjin University'
+        image: assets/img/team/1.jpg
+
+
+team:
+    title: "TEAM MEMBERS"
+    subtext:
+    section: team
+    student:
+      - name: "Yunsheng Dou"
+        role: "GRADUATE STUDENT"
+        description: 'Yunsheng Dou is a graduate student in intelligent medical engineering at Tianjin University. He is currently interested in developing computational methods to analyze the large scale TCR-seq data. Yunsheng got his bachelor’s degree of communication engineering at Hohai University in China.'
+        image: assets/img/team/2.jpg
+        mail: douys0130@tju.edu.cn
+
+      - name: "Shiwen Shan"
+        role: "GRADUATE STUDENT"
+        description: "Shiwen Shan is a graduate student in intelligent medical engineering at Tianjin University. Shiwen got her bachelor's degree of software engineering at China University of petroleum-Beijing at Karamay."
+        image: assets/img/team/3.jpg
+        mail: shan_shiwen@163.com
+
+      - name: "Kaixuan Wang"
+        role: "GRADUATE STUDENT"
+        description: "Kaixuan Wang is a graduate student in intelligent medical engineering at Tianjin University. Kaixuan got his bachelor's degree of intelligent medical engineering at Tianjin University."
+        image: assets/img/team/4.jpg
+        mail: casey_wang1209@tju.edu.cn
+
+      - name: "Qihang Xu"
+        role: "GRADUATE STUDENT"
+        description: "Qihang Xu  is a graduate student in intelligent medical engineering at Tianjin University. Qihang received his bachelor's degree of engineering at Tianjin University. Qihang's current research direction is mainly machine learning of antibodies."
+        image: assets/img/team/5.jpg
+        mail: xqh@tju.edu.cn
+#
+# contact:
+#     title: "Contact Us"
+#     text: ""
+#     section: contact
+
+footer:
+    legal: "Privacy Policy"
+    lasttime: 2021/9/3
+    fig1: assets/img/1.png
+    fig2: assets/img/2.png
+    social:
+      - url: Building 10, Room 404, 92 Weijin Road Nankai District, Tianjin, China
+        icon: "fab fa-location-arrow"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

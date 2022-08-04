@@ -1,0 +1,59 @@
+<!-- research -->
+  <section class="page-section" id="{{ site.data.sitetext.research.section | default: "research" }}">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 ">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.research.title | default: "research" }}</h2>
+          {% if site.data.sitetext.research.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.research.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+
+      <div class="row">
+	  {% for service in site.data.sitetext.research.list %}
+        <div class="col-md-12">
+          <!-- <span class="fa-stack fa-4x" style='float:left;margin-right:10%'> -->
+              <!-- <img src="{{ service.img }}" width="300" height="300"> -->
+            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
+            <!-- <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i> -->
+          <!-- </span> -->
+          <!-- <ul> -->
+            <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+          <!-- </ul> -->
+          <div class="row">
+          {% if service.desc %}<div class="text-muted"  style="font-size:20px">
+            <p style='padding:15px'>
+              <img align='right' width=540 height="347" src="{{ service.image }}" alt="" >
+              {{ service.desc }}
+            </p>
+            </div>{% endif %}
+<!-- <div class="col-md-6" > -->
+
+          <!-- </div> -->
+	  {% endfor %}
+      </div>
+
+    </div>
+     </div>
+    <div class='row'>
+
+      <div class="col-md-12">
+        <h3 class="service-heading">Resource</h3>
+
+         {% for tool in site.data.sitetext.research.resource %}
+        <h4 class="service-heading">{{ tool.title }}</h4>
+        <div class="row">
+        {% if tool.desc %}<div class="text-muted"  style="font-size:20px">
+          <p style='padding:15px'>
+            <a href="{{ tool.link }}" target="_blank"><img align='right' src="{{ tool.image }}" alt="" ></a>
+            {{ tool.desc }}
+          </p>
+          </div>{% endif %}
+    </div>
+     {% endfor %}
+  </div>
+    </div>
+  </section>
+<!-- End research -->

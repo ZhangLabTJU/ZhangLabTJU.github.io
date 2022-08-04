@@ -1,0 +1,23 @@
+nav:
+  - title: 'Home'
+    url: index
+
+  - title: "Biography"
+    section: biography
+
+  - title: "Research"
+    section: research
+
+  - title: "Publications"
+    section: portfolio
+
+
+  - title: "Team"
+    section: team
+
+  #
+  # - title: "Contact"
+  #   section: contact
+
+  # - title: "中文(简体)"
+  #   url: indexZH
