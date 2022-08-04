@@ -39,13 +39,11 @@
         <h4 class="service-heading">{{ tool.title }}</h4>
         <div class="row">
         {% if tool.desc %}
-        <div class="text-muted col-md-9"  style="font-size:20px">
-          <p style='text-align:justify'>
-            {{ tool.desc }}
-          </p>
-          </div>
-          <div class="col-md-3"><a href="{{ tool.link }}" target="_blank">
-            <img align='left' src="{{ tool.image }}" alt="" ></a></div>
+        <div class="text-muted"  style="font-size:20px">
+          <p style='padding:15px;text-align:justify'>
+        <a href="{{ tool.link | default:'javascript:void(0)' }}">
+          <img align='right' src="{{ tool.image }}" width=540 alt="" style='margin-left:5px'></a>
+            {{ tool.desc }}</p></div>
           {% endif %}
     </div>
      {% endfor %}

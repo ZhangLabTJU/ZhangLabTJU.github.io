@@ -13,14 +13,15 @@
 
 
 
-theme: 
+theme:
 
 url    : "" # the heading-fontbase hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Zhang Lab
+# time       : 2022/8/4
 email      : jian_zhang@tju.edu.cn #this is also the email contact forms will go to
-description: 
+description:
 author     : Gary
 logo:     #optional, defaults to site title
   path: assets\img\logo.png
