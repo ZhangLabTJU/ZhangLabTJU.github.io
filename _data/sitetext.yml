@@ -12,8 +12,8 @@ research:
         image: assets/img/research/res2.jpg
 
     resource:
-      - title: 'uctcrdb'
-        desc: ''
+      - title: "<span style='color:#f4606c'><b>Uc</b></span><span style='color:rgb(255,208,75)'><b>TCR</b></span><span :style='{color:db_color}'><b>db</b></span>"
+        desc: "<span style='color:#f4606c'><b>Uc</b></span><span style='color:rgb(255,208,75)'><b>TCR</b></span><span :style='{color:db_color}'><b>db</b></span>, which is a comprehensive database of unconventional T cell receptors (UcTCRs) with a user-friendly interface. UcTCRdb contains 598,758 unconventional TCR sequences systematically collected from 33 corresponding studies in human, mouse and cattle. Users can easily browse and download all the data and search for sequences of their interest."
         image: assets/img/research/uctcrdb.png
         link: http://uctcrdb.cn/
 
