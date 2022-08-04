@@ -13,18 +13,18 @@ research:
 
     resource:
       - title: "UcTCRdb"
-        desc: "We developed UcTCRdb <a href='http://uctcrdb.cn/' style='color:#007bff'>(http://uctcrdb.cn/)</a>, which is a comprehensive database of unconventional T cell receptors (UcTCRs) with a user-friendly interface. UcTCRdb contains 598,758 unconventional TCR sequences systematically collected from 33 corresponding studies in human, mouse and cattle. Users can easily browse and download all the data and search for sequences of their interest. In addition, we offer users to analyze the datasets of interest individually, or by entering data, or by uploading data file for code-free analysis. This will facilitate the discovery of sequence patterns for users with different backgrounds. (Paper is under preparation)"
+        desc: "We developed UcTCRdb <a href='http://uctcrdb.cn/' style='color:#007bff'>(http://uctcrdb.cn/)</a>, which is a comprehensive database of unconventional T cell receptors (UcTCRs) with a user-friendly interface. UcTCRdb contains 598,758 unconventional TCR sequences systematically collected from 33 corresponding studies in human, mouse and cattle. Users can easily browse and download all the data and search for sequences of their interest. In addition, we offer users to analyze the datasets of interest individually, or by entering data, or by uploading data file for code-free analysis. This will facilitate the discovery of sequence patterns for users with different backgrounds. (Manuscript in preparation)"
         image: assets/img/research/uctcrdb.png
         link: http://uctcrdb.cn/
 
       - title: "fIgCluster"
-        desc: "fIgCluster, a k-mer based method for fast Ig sequence clustering. To address the issue of clustering large-scale BCR sequencing data, we have developed fIgCluster, which is based on the combination of k-mers in BCR CDR3 region. It also provides functional modules for Ig cluster visualization and evolutionary analysis. fIgCluster is written in R, with continued updates for performance improvements and additional functionalities. (Paper is under preparation)"
+        desc: "fIgCluster, a k-mer based method for fast Ig sequence clustering. To address the issue of clustering large-scale BCR sequencing data, we have developed fIgCluster, which is based on the combination of k-mers in BCR CDR3 region. It also provides functional modules for Ig cluster visualization and evolutionary analysis. fIgCluster is written in R, with continued updates for performance improvements and additional functionalities. (Manuscript in preparation)"
         image: assets/img/research/figcluster.png
         # link: http://uctcrdb.cn/
 
       - title: "TRUST3"
         desc: "
-        I am a co-developer of TRUST3, which extracts T/B cell receptor hypervariable CDR3 sequences from unselected tumor RNA-seq data. It is an ultra-sensitive de novo assembly method for calling TCR and BCR CDR3s, with demonstrated utilities when applied to large cancer genomics data. TRUST3 supports multiple RNA-seq aligners including Bowtie2, STAR, MapSplice2 etc. It also applies to both hg19 and hg38 human genome references. TRUST can run in parallel mode and uses GPU acceleration to increase computational efficiency. The source code, installation instructions, usage and related dataset are available at: <a href='https://bitbucket.org/liulab/trust/' style='color:#007bff'>bitbucket.org/liulab/trust/</a>."
+        I am a co-developer of TRUST3, which extracts T/B cell receptor hypervariable CDR3 sequences from unselected tumor RNA-seq data. TRUST3 supports multiple RNA-seq aligners including Bowtie2, STAR, MapSplice2 etc. It also applies to both hg19 and hg38 human genome references. TRUST can run in parallel mode and uses GPU acceleration to increase computational efficiency. The source code, installation instructions, usage and related dataset are available at: <a href='https://bitbucket.org/liulab/trust/' style='color:#007bff'>bitbucket.org/liulab/trust/</a>."
         image:
         # link: http://uctcrdb.cn/
 
