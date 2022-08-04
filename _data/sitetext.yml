@@ -24,7 +24,7 @@ research:
 
       - title: "TRUST3"
         desc: "
-        I am a co-developer of TRUST3, which extracts T/B cell receptor hypervariable CDR3 sequences from unselected tumor RNA-seq data. TRUST3 supports multiple RNA-seq aligners including Bowtie2, STAR, MapSplice2 etc. It also applies to both hg19 and hg38 human genome references. TRUST can run in parallel mode and uses GPU acceleration to increase computational efficiency. The source code, installation instructions, usage and related dataset are available at: <a href='https://bitbucket.org/liulab/trust/' style='color:#007bff'>bitbucket.org/liulab/trust/</a>."
+        I am a co-developer of TRUST3, which extracts T/B cell receptor hypervariable CDR3 sequences from unselected tumor RNA-seq data. TRUST3 supports multiple RNA-seq aligners including Bowtie2, STAR, MapSplice2 etc. It also applies to both hg19 and hg38 human genome references. TRUST3 can run in parallel mode and uses GPU acceleration to increase computational efficiency. The source code, installation instructions, usage and related dataset are available at: <a href='https://bitbucket.org/liulab/trust/' style='color:#007bff'>bitbucket.org/liulab/trust/</a>."
         image:
         # link: http://uctcrdb.cn/
 
