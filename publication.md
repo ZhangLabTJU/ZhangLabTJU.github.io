@@ -15,7 +15,7 @@ background: grey
 
 	<ul style='list-style: disc;' class='pub-text'>
 	<li>
-	Jinhua Qin#, <b>Jian Zhang#</b>, Jianan Jiang#, Bowen Zhang, Jisheng Li, Xiaosong Lin, Sihan Wang, Meiqi Zhu, Zeng Fan, Yang Lv, Lijuan He, Lin Chen, Wen Yue, Yanhua Li*, Xuetao Pei*.
+	Qin J#, <b>Zhang J#</b>, Jiang J#, Zhang B, Li J, Lin X, Wang S, Zhu M, Fan Z, Lv Y, He L, Chen L, Yue W, Li Y*, Pei X*.
 Direct chemical reprogramming of human cord blood erythroblasts to induced megakaryocytes that produce platelets[J]. <i>Cell Stem Cell</i>, 2022.
 		<hr />
 	</li>
@@ -69,7 +69,7 @@ Direct chemical reprogramming of human cord blood erythroblasts to induced megak
 			Hu X#, <b>Zhang J</b>#, Wang J, Fu J, Li T, Zheng X, Wang B, Gu S, Jiang P, Fan J, Ying X, Zhang J, Carroll M C, Wucherpfennig K W, Hacohen N, Zhang F, Zhang P, Liu J S*, Li B*, Liu X S*. Landscape of B cell immunity and related immune evasion in human cancers[J]. <i>Nature Genetics</i>, 2019, 51(3): 560–567.
 			<hr />
 		</li>
-
+	
 	</ul>
 </div>
 <div class='pub' id='pub-2018'>
