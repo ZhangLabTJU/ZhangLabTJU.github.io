@@ -8,11 +8,13 @@ nav:
   - title: "News"
     section: news
 
-  - title: "Resource"
-    section: resource
-    
   - title: "Research"
     section: research
+    
+  - title: "Resource"
+    section: resource
+
+
 
   - title: "Publications"
     section: portfolio

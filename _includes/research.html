@@ -1,5 +1,5 @@
 <!-- research -->
-  <section class="page-section" id="{{ site.data.sitetext.research.section | default: "research" }}">
+  <section class="bg-light page-section" id="{{ site.data.sitetext.research.section | default: "research" }}">
     <div class="container">
 
       <div class="row">
@@ -18,7 +18,7 @@
           <div class="row">
           {% if service.desc %}<div class="text-muted"  style="font-size:20px">
             <p style='padding:15px;text-align:justify'>
-              <img align='right' width=540 height="347" src="{{ service.image }}" alt="" >
+              <img style='padding:15px;' align='right' width=540 height="347" src="{{ service.image }}" alt="" >
               {{ service.desc }}
             </p>
             </div>{% endif %}

@@ -1,90 +1,20 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Gary">
-  <link rel="canonical" href="/tms/publication.html">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <title>Publications | Zhang Lab</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this theme -->
-  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet">
-  
-
-  <!-- Page container change top padding when nav shrinks -->
-  
-  <style>
-    #pagecontainer {padding-top: 150px;}
-	@media only screen and (max-width: 991px) {
-	  #pagecontainer {padding-top: 100px;}
-	}
-  </style>
-  
-  
-
-</head>
-
-
-  <body id="page-top">
-
-      <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
-    <div class="container">
-	  <a class="navbar-brand js-scroll-trigger text-uppercase" href="/index"><img height="60" src="assets\img\logo.png"/></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto"><li class="nav-item"><a class="nav-link js-scroll-trigger" href="index">Home</a></li>
-		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#biography">Biography</a></li>
-		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#news">News</a></li>
-		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#research">Research</a></li>
-		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#resource">Resource</a></li>
-		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#portfolio">Publications</a></li>
-		<li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#team">Team</a></li>
-		
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navigation -->
-
-
-
-<script>
-document.getElementById("page-top").className="bg-light";
-</script>
-
-
-<div class="container" id="pagecontainer">
-<div class="col-lg-12" style="padding-left:0;">
+I"|<div class="col-lg-12" style="padding-left:0;">
 	<h2 class="section-heading text-uppercase">Publications&nbsp; <a href="https://scholar.google.com/citations?user=15wquMIAAAAJ&amp;hl=zh-CN&amp;oi=sra">
 <svg t="1659586645086" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="996" width="40" height="40"><path d="M466.346667 87.253333c-23.338667 15.616-137.386667 91.306667-253.354667 168.32C96.938667 332.544 2.133333 396.202667 2.133333 396.970667c0 0.810667 5.802667 4.693333 13.013334 8.533333 7.125333 4.096 121.6 67.541333 254.506666 141.226667l241.322667 134.101333 6.144-3.157333c3.498667-1.706667 92.544-52.565333 198.058667-112.725334l191.701333-109.568 1.152 339.072h113.834667V397.610667l-147.626667-98.986667c-198.997333-133.290667-358.058667-238.336-361.984-239.189333-1.92-0.341333-22.485333 12.245333-45.909333 27.818666M228.48 709.674667l0.597333 85.546666 141.226667 84.778667 141.226667 84.565333 142.378666-85.333333 142.165334-85.546667V709.12c0-46.592-0.554667-84.608-1.152-84.608s-56.234667 33.365333-123.733334 74.282667l-141.056 85.162666-18.389333 10.922667-56.32-33.749333a25775.786667 25775.786667 0 0 1-140.202667-84.437334l-85.546666-51.626666c-1.024-0.341333-1.365333 37.674667-1.152 84.608" p-id="997"></path></svg></a></h2>
 	<p class="section-sheading" style="font-size:1.2rem;"># Co-first authors; * Co-corresponding authors</p>
+	<p class="section-sheading" style="font-size:1.2rem;">Zhang Lab members are highlighted in bold.</p>
 </div>
 <div class="pub" id="pub-2022">
 	<p class="pub-year">2022</p>
 
 	<ul style="list-style: disc;" class="pub-text">
+	<li>
+	Jinhua Qin#, <b>Jian Zhang#</b>, Jianan Jiang#, Bowen Zhang, Jisheng Li, Xiaosong Lin, Sihan Wang, Meiqi Zhu, Zeng Fan, Yang Lv, Lijuan He, Lin Chen, Wen Yue, Yanhua Li*, Xuetao Pei*.
+Direct chemical reprogramming of human cord blood erythroblasts to induced megakaryocytes that produce platelets[J]. <i>Cell Stem Cell</i>, 2022.
+		<hr />
+	</li>
     	<li>
-		Xing X#, Shi J#, Jia Y#, Dou Y#, Li Z#, Dong B, Guo T, Cheng X, Li X, Du H, Hu Y, Jia S*, <b>Zhang J*</b>, Li Z*, Ji J*. Effect of neoadjuvant chemotherapy on the immune microenvironment in gastric cancer as determined by multiplex immunofluorescence and T cell receptor repertoire analysis[J]. <i>Journal for immunotherapy of cancer</i>, 2022, 10(3):e003984.
+		Xing X#, Shi J#, Jia Y#, <b>Dou Y#</b>, Li Z#, Dong B, Guo T, Cheng X, Li X, Du H, Hu Y, Jia S*, <b>Zhang J*</b>, Li Z*, Ji J*. Effect of neoadjuvant chemotherapy on the immune microenvironment in gastric cancer as determined by multiplex immunofluorescence and T cell receptor repertoire analysis[J]. <i>Journal for immunotherapy of cancer</i>, 2022, 10(3):e003984.
 			<hr />
 		</li>
     	<li>
@@ -194,77 +124,4 @@ document.getElementById("page-top").className="bg-light";
 		</li>
 	</ul>
 </div>
-
-</div>
-
-
-	    <!-- Footer -->
-  <footer class="bg-light footer" id="footer" style="background-color:white;">
-
-
-    <div style='height: 300px;/* width:60%; *//* margin-left:20%; *//* z-index:99; *//* position:relative; */'>
-<div class="container">
-  <div class="row">
-    <div class="col-8"  style='padding:15px;' >
-        <h2 class="section-heading text-uppercase"  style='padding:15px' align='left'>CONTACT US</h2>
-      <p align='left'><i class='fa fa-location-arrow' ></i> No.92 Weijin Road Nankai District, Tianjin, China</p>
-      <p align='left'><i class='fa fa-envelope' ></i> jian_zhang@tju.edu.cn </p>
-      <p align='left'><a style='color:#000;text-decoration:none'  href='https://scholar.google.com/citations?user=15wquMIAAAAJ&hl=zh-CN&oi=sra'><i class="fab fa-google" ></i> Google Scholar</a></p>
-    </div>
-
-    <div class="col-4" style='height:300px;line-height: 300px;'>
-      <a href="http://www.tju.edu.cn/" target="_blank">
-      <img class="mx-auto rounded-circle" src="assets/img/1.png" alt="" ></a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://mctu.tju.edu.cn/" target="_blank">
-        <img class="mx-auto rounded-circle" src="assets/img/2.png" alt="" ></a>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class='bg-light'>
-<ul style='color:#666;letter-spacing:.025em;line-height:1.5rem;font-size:1rem;font-weight:400;opacity:.7'>
-  <span>&copy; Zhang Lab, 2022</span><br>
-</ul></div>
-    </div>
-
-  </footer>
-
-<script>
-fixPageShort();
-function fixPageShort() {
-  if(window.innerHeight > document.body.offsetHeight) {
-    document.getElementById("footer").style.position="fixed";
-    document.getElementById("footer").style.bottom=0;
-    document.getElementById("footer").style.right=0;
-    document.getElementById("footer").style.left=0;
-    document.getElementById("footer").style.width="100%";
-  }
-}
-</script>
-<<style media="screen">
-
-</style>
-
-  <!-- End Footer -->
-
-
-	  <!-- Bootstrap core JavaScript -->
-	  <script src="assets/js/jquery.min.js"></script>
-	  <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-	  <!-- Plugin JavaScript -->
-	  <script src="assets/js/jquery.easing.min.js"></script>
-
-	  <!-- Contact form JavaScript -->
-	  <script src="assets/js/jqBootstrapValidation.js"></script>
-	  <script src="assets/js/contact_me.js"></script>
-
-	  <!-- Custom scripts for this template -->
-	  <script src="assets/js/agency.min.js"></script>
-
-  </body>
-</html>
+:ET
