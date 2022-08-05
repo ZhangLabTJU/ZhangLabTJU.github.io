@@ -1,0 +1,30 @@
+<!-- news -->
+  <section class="page-section" id="{{ site.data.sitetext.news.section | default: "news" }}">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 ">
+
+
+        </div>
+      </div>
+
+      <div class="row" style='padding:15px'>
+        <div class="col-md-4">  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.news.title | default: "news" }}</h2></div>
+          <div class="col-md-8">
+        {% for new in site.data.sitetext.news.list %}
+
+       <h4 class="service-heading">{{ new.title }}</h4>
+       <div class="row">
+       {% if new.desc %}
+       <div class="text-muted"  style="font-size:20px">
+         <p style='padding:15px;text-align:justify'>
+           {{ new.desc }}<br>{{ new.time }}</p></div>
+         {% endif %}
+     </div>
+     {% endfor %}</div>
+      </div>
+
+    </div>
+  </section>
+<!-- End news -->

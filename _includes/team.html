@@ -9,25 +9,20 @@
   </div>
   <div class="row" >
   {% for person in site.data.sitetext.team.student %}
-  	<div class="col-sm-12">
-  	  <div class="team-member" style='float:left;margin-right:10%'>
+  	<div class="col-md-4" >
+  	  <div class="team-member" >
+        <a href="{{ person.buttonlink }}" style='color:#000'>
     		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="" >
-        <h4>{{ person.name }}</h4>
+        <h4>{{ person.name }}</h4></a>
         <p class="text-muted">{{ person.role }}</p>
+         <p><i class='fa fa-envelope' ></i> {{ person.mail }}</p>
       </div>
-        <p style='margin-top:5%;font-size:20px' >{{ person.description }}</p>
 
-        <p align='left'><i class='fa fa-envelope' ></i> {{ person.mail }}</p>
   	</div>
   {% endfor %}
 
   </div>
-  <div class="row">
-	<div class="col-lg-8 mx-auto text-center">
-	  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
-	</div>
-  </div>
-  
+
 </div>
 </section>
 <!-- End Team -->

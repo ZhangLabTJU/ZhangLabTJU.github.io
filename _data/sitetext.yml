@@ -11,7 +11,11 @@ research:
         desc: "The advent of omics technologies, such as genomics, epigenomics, transcriptomics and proteomics, have revolutionized medical research. The concept of “omics” refers to the fact that all or nearly all instances of the targeted molecular space are measured in the assay, and therefore they provide holistic views of the biological system. The efficient processing and analysis of the omics data, especially extracting and discovering patterns from these data, has brought many challenges to bioinformatics and computational biology.We are interested in developing computational methods to mine large-scale omics data to improve understanding of the causes and biological processes of diseases, especially in cancer, and to identify signatures and build models for early cancer detection and personalized treatment."
         image: assets/img/research/res2.jpg
 
-    resource:
+
+resource:
+    title: "Resource"
+    section: resource
+    list:
       - title: "UcTCRdb"
         desc: "We developed UcTCRdb <a href='http://uctcrdb.cn/' style='color:#007bff'>(http://uctcrdb.cn/)</a>, which is a comprehensive database of unconventional T cell receptors (UcTCRs) with a user-friendly interface. UcTCRdb contains 598,758 unconventional TCR sequences systematically collected from 33 corresponding studies in human, mouse and cattle. Users can easily browse and download all the data and search for sequences of their interest. In addition, we offer users to analyze the datasets of interest individually, or by entering data, or by uploading data file for code-free analysis. This will facilitate the discovery of sequence patterns for users with different backgrounds. (Paper is under preparation)"
         image: assets/img/research/uctcrdb.png
@@ -28,6 +32,7 @@ research:
         image:
         # link: http://uctcrdb.cn/
 
+
 portfolio:
     title: "RECENT Publications"
     section: portfolio
@@ -36,7 +41,21 @@ portfolio:
     button: View More
     buttonlink: "publication"
 
+news:
+  title: 'RECENT News'
+  section: news
+  list:
+    - title: "Our collaborative research paper with Dr. Xuetao Pei and Dr. Yanhua Li is published on Cell Stem Cell today!"
+      desc: "You can find the paper <a href='https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(22)00299-5' style='color:#007bff'>here</a>."
+      time: 2022-08-05
 
+    - title: "Welcome master student Kaixuan Wang and Qihang Xu officially joining our lab!"
+      desc: "They are both graduated form Medical College of Tianjin University with a major in intelligent  medical engineering."
+      time: 2022-08-01
+
+    - title: "Our collaborative research paper with Dr. Jiafu Ji, Dr. Ziyu Li and Dr. Shuqin Jia is published on Journal for ImmunoTherapy of Cancer today!"
+      desc: "You can find the paper <a href='https://jitc.bmj.com/content/10/3/e003984' style='color:#007bff'>here</a>."
+      time: 2022-04-01
 
 
 biography:
@@ -60,24 +79,28 @@ team:
         description: 'Yunsheng Dou is a graduate student in intelligent medical engineering at Tianjin University. He is currently interested in developing computational methods to analyze the large scale TCR-seq data. Yunsheng got his bachelor’s degree of communication engineering at Hohai University in China.'
         image: assets/img/team/2.jpg
         mail: douys0130@tju.edu.cn
+        buttonlink: 'dys'
 
       - name: "Shiwen Shan"
         role: "GRADUATE STUDENT"
         description: "Shiwen Shan is a graduate student in intelligent medical engineering at Tianjin University. Shiwen got her bachelor's degree of software engineering at China University of petroleum-Beijing at Karamay."
         image: assets/img/team/3.jpg
         mail: shan_shiwen@163.com
+        buttonlink: 'ssw'
 
       - name: "Kaixuan Wang"
         role: "GRADUATE STUDENT"
         description: "Kaixuan Wang is a graduate student in intelligent medical engineering at Tianjin University. Kaixuan got his bachelor's degree of intelligent medical engineering at Tianjin University."
         image: assets/img/team/4.jpg
         mail: casey_wang1209@tju.edu.cn
+        buttonlink: 'wkx'
 
       - name: "Qihang Xu"
         role: "GRADUATE STUDENT"
         description: "Qihang Xu  is a graduate student in intelligent medical engineering at Tianjin University. Qihang received his bachelor's degree of engineering at Tianjin University. Qihang's current research direction is mainly machine learning of antibodies."
         image: assets/img/team/5.jpg
         mail: xqh@tju.edu.cn
+        buttonlink: 'xqh'
 #
 # contact:
 #     title: "Contact Us"

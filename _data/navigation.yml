@@ -5,6 +5,12 @@ nav:
   - title: "Biography"
     section: biography
 
+  - title: "News"
+    section: news
+
+  - title: "Resource"
+    section: resource
+    
   - title: "Research"
     section: research
 
@@ -12,12 +18,13 @@ nav:
     section: portfolio
 
 
+
+
   - title: "Team"
     section: team
 
   #
-  # - title: "Contact"
-  #   section: contact
+
 
   # - title: "中文(简体)"
   #   url: indexZH
